@@ -27,17 +27,8 @@
  *------------------------------------------------------------------*
  *  2018/09/21 | 1.0.0.0   | zhjxy       | Create file            *
  */
-#ifndef _CBase64_H_
-#define _CBase64_H_
-
-#define CBASE64_VER "0.0.1"
-#include "CBase64CFG.h"
-
-
-int Base64Encode(const unsigned char *src,unsigned int src_len,unsigned char *dst);
-int Base64Decode(const unsigned char *src,unsigned char *dst);
-
-
+#ifndef _CBase64_CFG_H_
+#define _CBase64_CFG_H_
 
 
 #endif /* _CBase64_H_ */
