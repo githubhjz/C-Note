@@ -1,0 +1,3 @@
+env = Environment()
+print env,type(env),"CC:",env['CC']
+Program(['main.c','../../src/CBase64.c'],CPPPATH=['../../inc','./'])
