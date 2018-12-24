@@ -30,7 +30,7 @@
 #ifndef _CBase64_H_
 #define _CBase64_H_
 
-#define CBASE64_VER "0.0.1"
+#define CBASE64_VER "0.0.2"
 #include "CBase64CFG.h"
 
 

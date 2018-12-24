@@ -92,7 +92,7 @@ int Base64Decode(const unsigned char *src,unsigned char *dst)
     else if(strstr(src,"="))
         dst_len = len/4*3-1;
     else
-        dst_len = len/4;
+        dst_len = len/4*3;
 
 	//以4个字符为一位进行解码
     for(i=0,j=0;i < len-2;j+=3,i+=4)
